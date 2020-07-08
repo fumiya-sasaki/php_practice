@@ -1,15 +1,19 @@
 <?php
-$a = 3 ; $b = 7 ;
-echo  $a+$b ;
+$a = 3; 
+$b = 7;
+echo $a + $b;
 
- $array_month = ["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"] ;
+ $array_month = ["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"];
  echo $array_month[7];
  
-$hello = "Hello," ;$name = "fumiya" ; $world = "`s World!" ;
-echo $hello.$name.$world ;
+$hello = "Hello,";
+$name = "fumiya"; 
+$world = "`s World!";
+echo $hello . $name . $world;
 
-$tech_boost = "teac" ; $tech_boost .= "boost";
-echo $tech_boost ;
+$tech_boost = "tech"; 
+$tech_boost .= "boost";
+echo $tech_boost;
 
 $calender_2018 = [
   "January" => "1月",
@@ -25,4 +29,4 @@ $calender_2018 = [
   "November" => "11月",
   "December" => "12月"
 ];
-echo $calender_2018["December"] ;
+echo $calender_2018["December"];
